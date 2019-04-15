@@ -1,5 +1,5 @@
 # dangdang_spider
-使用Scrapy-Redis/MongoDB实现的一个分布式网络爬虫,底层存储MongoDB,分布式使用scrapy-Redis实现 
+爬取当当网的图书条目，使用Scrapy-Redis/MongoDB实现的一个分布式网络爬虫,底层存储MongoDB,分布式使用scrapy-Redis实现。
 
 ## 摘要
 基于scrapy-redis做的分布式爬虫，可以解决单机爬虫的瓶颈，单机每小时爬取量在3w5左右。主要做了当当网小说栏目的爬取，数据量在10w左右，想爬其他的可以在master端添加start_url
